@@ -6,5 +6,20 @@ namespace fibonacci_sequence
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            int input = int.Parse(txtInput.Text);
+            int result = FibonacciSequence(input);
+            lblResult.Text = $"Result: {result}";
+        }
+
+        public int FibonacciSequence(int n)
+        {
+            if (n == 0) return 0;
+            else if (n == 1) return 1;
+
+            return FibonacciSequence(n - 2) + FibonacciSequence(n - 1);
+        }
     }
 }
