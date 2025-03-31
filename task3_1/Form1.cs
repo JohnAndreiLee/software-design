@@ -19,7 +19,7 @@ namespace fibonacci_sequence
             if (n == 0) return 0;
             else if (n == 1) return 1;
 
-            return FibonacciSequence(n - 2) + FibonacciSequence(n - 1);
+            return FibonacciSequence(n - 1) + FibonacciSequence(n - 2);
         }
     }
 }

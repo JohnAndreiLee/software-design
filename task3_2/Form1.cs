@@ -11,7 +11,7 @@ namespace task3_2
         {
             int baseNum = int.Parse(txtBase.Text);
             int expNum = int.Parse(txtExponent.Text);
-            int result = PowerCalculation(baseNum, expNum);
+            int result = PowerCalculation(baseNum,expNum);
             lblResult.Text = $"Result: {result}";
         }
 
