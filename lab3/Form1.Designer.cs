@@ -34,7 +34,7 @@
             // 
             // btnDisplay
             // 
-            btnDisplay.Location = new Point(177, 312);
+            btnDisplay.Location = new Point(178, 314);
             btnDisplay.Name = "btnDisplay";
             btnDisplay.Size = new Size(88, 29);
             btnDisplay.TabIndex = 0;
@@ -55,11 +55,11 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(471, 368);
             Controls.Add(listBox);
             Controls.Add(btnDisplay);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Bookstore System";
             Load += Form1_Load;
             ResumeLayout(false);
         }
