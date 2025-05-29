@@ -9,4 +9,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MSTest" Version="3.9.1" />
+  </ItemGroup>
+
 </Project>
